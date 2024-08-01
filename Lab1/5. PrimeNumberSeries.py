@@ -11,6 +11,6 @@ def generate_Prime_Series(n):
         if is_prime(num):
             prime_series.append(num)
             return prime_series
-n = int(input("ENTER THE UPPER LIMIT (n):"))
+n 20= int(input("ENTER THE UPPER LIMIT (n):"))
 Prime_Series = generate_Prime_Series(n)
 print(f"Prime number upto{n} are: {Prime_Series}")
